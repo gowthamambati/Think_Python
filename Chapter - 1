@@ -1,0 +1,9 @@
+miles = 10 / 1.61
+time = ((43*60)+30)
+avg_time = time/miles
+print("Average time per mile = " , avg_time)
+
+avg_time_mins = avg_time / 60
+avg_time_hours = 60 / avg_time_mins
+
+print("Average speed in miles per hour = " , avg_time_hours)
