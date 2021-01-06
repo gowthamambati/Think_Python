@@ -1,0 +1,9 @@
+cost_perbook = 24.95
+discount = 40
+price_book = cost_perbook - (cost_perbook*(discount/100))
+shipping_copy_1stbook = 3
+shipping_copy_additionalbooks = 0.75
+no_of_copies = 60
+
+wholesale_cost = (price_book + shipping_copy_1stbook)+((price_book+shipping_copy_additionalbooks)*(no_of_copies-1))
+wholesale_cost
